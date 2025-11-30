@@ -1,0 +1,29 @@
+// Dark Mode Styles
+body.dark {
+  --text-color: var(--dark-text-color);
+  --text-light: var(--dark-text-light);
+  --bg-color: var(--dark-bg-color);
+  --bg-secondary: var(--dark-bg-secondary);
+  --border-color: var(--dark-border-color);
+
+  .header {
+    background: rgba(15, 23, 42, 0.95);
+  }
+
+  .theme-toggle .fa-moon {
+    display: none;
+  }
+
+  .theme-toggle .fa-sun {
+    display: block;
+  }
+
+  .skill-tag {
+    background: var(--dark-bg-secondary);
+  }
+
+  .project-card,
+  .blog-card {
+    background: var(--dark-bg-secondary);
+  }
+}
